@@ -1,0 +1,12 @@
+<div class="face-snap-card">
+  <h1>{{ title }}</h1>
+  <p>mis enline {{ description }}</p>
+  <img [src]="image" [alt]="title" />
+
+  <p>{{ createdDate }}</p>
+
+  <p>
+    <button (click)="onAddSnap()">{{button}}</button>
+    <button (click)="onLessSnap()">deslike</button>
+    👨👩 {{ snaps }}</p>
+</div>
